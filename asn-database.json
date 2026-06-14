@@ -1,0 +1,316 @@
+{
+  "version": "1.0.0",
+  "lastModified": "2026-06-11T13:16:39.839Z",
+  "presets": {
+    "default": {
+      "label": "Default (Indonesia NOC)",
+      "description": "Database ASN standar untuk NOC Indonesia"
+    }
+  },
+  "brands": {
+    "AS13335": {
+      "label": "Cloudflare",
+      "color": "#F38020",
+      "bg": "rgba(243,128,32,0.15)",
+      "category": "cdn",
+      "country": "US",
+      "notes": ""
+    },
+    "AS209242": {
+      "label": "Cloudflare",
+      "color": "#F38020",
+      "bg": "rgba(243,128,32,0.15)",
+      "category": "cdn",
+      "country": "US",
+      "notes": ""
+    },
+    "AS20940": {
+      "label": "Akamai",
+      "color": "#009BDE",
+      "bg": "rgba(0,155,222,0.15)",
+      "category": "cdn",
+      "country": "US",
+      "notes": ""
+    },
+    "AS16625": {
+      "label": "Akamai",
+      "color": "#009BDE",
+      "bg": "rgba(0,155,222,0.15)",
+      "category": "cdn",
+      "country": "US",
+      "notes": ""
+    },
+    "AS54113": {
+      "label": "Fastly",
+      "color": "#FF282D",
+      "bg": "rgba(255,40,45,0.15)",
+      "category": "cdn",
+      "country": "US",
+      "notes": ""
+    },
+    "AS22822": {
+      "label": "Limelight/Edgio",
+      "color": "#7B2D8E",
+      "bg": "rgba(123,45,142,0.15)",
+      "category": "cdn",
+      "country": "US",
+      "notes": ""
+    },
+    "AS60068": {
+      "label": "CDN77/DataCamp",
+      "color": "#00A859",
+      "bg": "rgba(0,168,89,0.15)",
+      "category": "cdn",
+      "country": "CZ",
+      "notes": ""
+    },
+    "AS33438": {
+      "label": "StackPath",
+      "color": "#00BFFF",
+      "bg": "rgba(0,191,255,0.15)",
+      "category": "cdn",
+      "country": "US",
+      "notes": ""
+    },
+    "AS20446": {
+      "label": "StackPath",
+      "color": "#00BFFF",
+      "bg": "rgba(0,191,255,0.15)",
+      "category": "cdn",
+      "country": "US",
+      "notes": ""
+    },
+    "AS44239": {
+      "label": "KeyCDN",
+      "color": "#E84C3D",
+      "bg": "rgba(232,76,61,0.15)",
+      "category": "cdn",
+      "country": "CH",
+      "notes": ""
+    },
+    "AS208849": {
+      "label": "BunnyCDN",
+      "color": "#F5A623",
+      "bg": "rgba(245,166,35,0.15)",
+      "category": "cdn",
+      "country": "SI",
+      "notes": ""
+    },
+    "AS15169": {
+      "label": "Google/GGC",
+      "color": "#4285F4",
+      "bg": "rgba(66,133,244,0.15)",
+      "category": "cdn",
+      "country": "US",
+      "notes": "Google Global Cache"
+    },
+    "AS396982": {
+      "label": "Google Cloud",
+      "color": "#4285F4",
+      "bg": "rgba(66,133,244,0.15)",
+      "category": "cloud",
+      "country": "US",
+      "notes": ""
+    },
+    "AS19527": {
+      "label": "Google",
+      "color": "#4285F4",
+      "bg": "rgba(66,133,244,0.15)",
+      "category": "cdn",
+      "country": "US",
+      "notes": ""
+    },
+    "AS36384": {
+      "label": "Google",
+      "color": "#4285F4",
+      "bg": "rgba(66,133,244,0.15)",
+      "category": "cdn",
+      "country": "US",
+      "notes": ""
+    },
+    "AS32934": {
+      "label": "Meta/Facebook",
+      "color": "#1877F2",
+      "bg": "rgba(24,119,242,0.15)",
+      "category": "cdn",
+      "country": "US",
+      "notes": ""
+    },
+    "AS63293": {
+      "label": "Meta",
+      "color": "#1877F2",
+      "bg": "rgba(24,119,242,0.15)",
+      "category": "cdn",
+      "country": "US",
+      "notes": ""
+    },
+    "AS8075": {
+      "label": "Microsoft/Azure",
+      "color": "#00A4EF",
+      "bg": "rgba(0,164,239,0.15)",
+      "category": "cloud",
+      "country": "US",
+      "notes": ""
+    },
+    "AS8068": {
+      "label": "Microsoft",
+      "color": "#00A4EF",
+      "bg": "rgba(0,164,239,0.15)",
+      "category": "cloud",
+      "country": "US",
+      "notes": ""
+    },
+    "AS8074": {
+      "label": "Microsoft",
+      "color": "#00A4EF",
+      "bg": "rgba(0,164,239,0.15)",
+      "category": "cloud",
+      "country": "US",
+      "notes": ""
+    },
+    "AS16509": {
+      "label": "AWS CloudFront",
+      "color": "#FF9900",
+      "bg": "rgba(255,153,0,0.15)",
+      "category": "cdn",
+      "country": "US",
+      "notes": ""
+    },
+    "AS14618": {
+      "label": "AWS",
+      "color": "#FF9900",
+      "bg": "rgba(255,153,0,0.15)",
+      "category": "cloud",
+      "country": "US",
+      "notes": ""
+    },
+    "AS8987": {
+      "label": "AWS",
+      "color": "#FF9900",
+      "bg": "rgba(255,153,0,0.15)",
+      "category": "cloud",
+      "country": "US",
+      "notes": ""
+    },
+    "AS45102": {
+      "label": "Alibaba Cloud",
+      "color": "#FF6A00",
+      "bg": "rgba(255,106,0,0.15)",
+      "category": "cloud",
+      "country": "CN",
+      "notes": ""
+    },
+    "AS37963": {
+      "label": "Alibaba Cloud",
+      "color": "#FF6A00",
+      "bg": "rgba(255,106,0,0.15)",
+      "category": "cloud",
+      "country": "CN",
+      "notes": ""
+    },
+    "AS139327": {
+      "label": "EdgeNext",
+      "color": "#00C9DB",
+      "bg": "rgba(0,201,219,0.15)",
+      "category": "cdn",
+      "country": "SG",
+      "notes": ""
+    },
+    "AS63199": {
+      "label": "EdgeNext",
+      "color": "#00C9DB",
+      "bg": "rgba(0,201,219,0.15)",
+      "category": "cdn",
+      "country": "SG",
+      "notes": ""
+    },
+    "AS3356": {
+      "label": "Lumen/CenturyLink",
+      "color": "#6EE7B7",
+      "bg": "rgba(110,231,183,0.15)",
+      "category": "transit",
+      "country": "US",
+      "notes": ""
+    },
+    "AS174": {
+      "label": "Cogent",
+      "color": "#6EE7B7",
+      "bg": "rgba(110,231,183,0.15)",
+      "category": "transit",
+      "country": "US",
+      "notes": ""
+    },
+    "AS2914": {
+      "label": "NTT",
+      "color": "#6EE7B7",
+      "bg": "rgba(110,231,183,0.15)",
+      "category": "transit",
+      "country": "JP",
+      "notes": ""
+    },
+    "AS1299": {
+      "label": "Telia",
+      "color": "#6EE7B7",
+      "bg": "rgba(110,231,183,0.15)",
+      "category": "transit",
+      "country": "SE",
+      "notes": ""
+    },
+    "AS6939": {
+      "label": "Hurricane Electric",
+      "color": "#6EE7B7",
+      "bg": "rgba(110,231,183,0.15)",
+      "category": "transit",
+      "country": "US",
+      "notes": ""
+    },
+    "AS7713": {
+      "label": "Telkom Indonesia",
+      "color": "#E44D26",
+      "bg": "rgba(228,77,38,0.15)",
+      "category": "isp",
+      "country": "ID",
+      "notes": ""
+    },
+    "AS17995": {
+      "label": "Telkom Indonesia",
+      "color": "#E44D26",
+      "bg": "rgba(228,77,38,0.15)",
+      "category": "isp",
+      "country": "ID",
+      "notes": ""
+    },
+    "AS17451": {
+      "label": "Biznet",
+      "color": "#00B140",
+      "bg": "rgba(0,177,64,0.15)",
+      "category": "isp",
+      "country": "ID",
+      "notes": ""
+    },
+    "AS23693": {
+      "label": "XL Axiata",
+      "color": "#0058A3",
+      "bg": "rgba(0,88,163,0.15)",
+      "category": "isp",
+      "country": "ID",
+      "notes": ""
+    },
+    "AS4761": {
+      "label": "Indosat",
+      "color": "#FFD700",
+      "bg": "rgba(255,215,0,0.15)",
+      "category": "isp",
+      "country": "ID",
+      "notes": ""
+    },
+    "AS17922": {
+      "label": "Indosat",
+      "color": "#FFD700",
+      "bg": "rgba(255,215,0,0.15)",
+      "category": "isp",
+      "country": "ID",
+      "notes": ""
+    }
+  }
+}

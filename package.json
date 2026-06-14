@@ -1,0 +1,51 @@
+{
+  "name": "cdn-diagnostic-browser",
+  "version": "1.0.0",
+  "description": "CDN Diagnostic Browser — Real-time IP/CDN network monitoring with embedded Chromium",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win --x64",
+    "pack": "electron-builder --dir"
+  },
+  "build": {
+    "appId": "com.cdndiagnostic.browser",
+    "productName": "CDN Diagnostic Browser",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "asn-database.json",
+      "renderer/**/*",
+      "assets/**/*",
+      "node_modules/**/*"
+    ]
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "ws": "^8.21.0"
+  },
+  "devDependencies": {
+    "electron": "^42.3.3",
+    "electron-builder": "^24.13.3"
+  },
+  "keywords": [
+    "cdn",
+    "diagnostic",
+    "network",
+    "electron",
+    "chromium"
+  ],
+  "author": "CDN Diagnostic",
+  "license": "MIT"
+}
